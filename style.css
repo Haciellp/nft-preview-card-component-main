@@ -82,6 +82,10 @@ body{
 .description_container h1, p {
     margin-bottom: 17px;
 }
+h1{
+    display: inline-flex;
+}
+
 .price_dayleft_container{
     justify-content: space-between;
     margin-bottom: 15px;
@@ -134,13 +138,10 @@ body{
     margin-top: 13px;
 }
 
-.description_container h1:hover, .creator_name:hover{
+h1:hover, .creator_name:hover{
     color: var(--Cyan);
     cursor: pointer;
     transition: 200ms;
-}
-.photo_container:hover{
-    background-color: var(--Cyan);
 }
 
 .attribution { margin-top: 10px; font-size: 11px; text-align: center; }
